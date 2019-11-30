@@ -7,8 +7,8 @@ import { Link } from 'react-router-dom';
 function App() {
   return (
 <div style={{height: '300px', position: 'relative'}}>
-    <Layout style={{background: 'url(http://www.getmdl.io/assets/demos/transparent.jpg) center / cover'}}>
-        <Header transparent title="Title" style={{color: 'white'}}>
+    <Layout fixedHeader>
+        <Header className="header-color" transparent title="Title" style={{color: 'white'}}>
             <Navigation>
                 <Link to="/">Home</Link>
                 <Link to="/AboutMe">About Me</Link>
