@@ -42,5 +42,12 @@ background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, F
 .banner-text h1 {
   font-size: 66px;
   font-weight: bold;
-  color: white
+  color: white;
+  text-align: center;
+}
+
+.banner-text hr {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
 }
