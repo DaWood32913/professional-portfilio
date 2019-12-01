@@ -11,8 +11,10 @@ class Projects extends Component {
   toggleCategories() {
     if(this.state.activeTab === 0) {
       return (
+        <div className="projects-grid">
+          {/* Project 1 */}
         <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-          <CardTitle style={{color: '#fff', height: '176px', background: 'url() center / cover'}}>React Project</CardTitle>
+          <CardTitle style={{color: '#ccc', height: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV38RNP5zRnhAFQSBWerqdKqwEuVQnTpRK0GPf-mfB9Q5xwGxz&s) center / cover'}}>React Project</CardTitle>
           <CardText>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sagittis pellentesque lacus eleifend lacinia...
           </CardText>
@@ -25,6 +27,40 @@ class Projects extends Component {
             <IconButton name="share" />
           </CardMenu>
         </Card>
+        {/* Project 2 */}
+        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          <CardTitle style={{color: '#ccc', height: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV38RNP5zRnhAFQSBWerqdKqwEuVQnTpRK0GPf-mfB9Q5xwGxz&s) center / cover'}}>React Project</CardTitle>
+          <CardText>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sagittis pellentesque lacus eleifend lacinia...
+          </CardText>
+          <CardActions border>
+            <Button colored>GitHub</Button>
+            <Button colored>CodePen</Button>
+            <Button colored>LiveDemo</Button>
+          </CardActions>
+          <CardMenu style={{color: '#fff'}}>
+            <IconButton name="share" />
+          </CardMenu>
+        </Card>
+
+        {/* Project 3 */}
+        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          <CardTitle style={{color: '#ccc', height: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV38RNP5zRnhAFQSBWerqdKqwEuVQnTpRK0GPf-mfB9Q5xwGxz&s) center / cover'}}>React Project</CardTitle>
+          <CardText>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sagittis pellentesque lacus eleifend lacinia...
+          </CardText>
+          <CardActions border>
+            <Button colored>GitHub</Button>
+            <Button colored>CodePen</Button>
+            <Button colored>LiveDemo</Button>
+          </CardActions>
+          <CardMenu style={{color: '#fff'}}>
+            <IconButton name="share" />
+          </CardMenu>
+        </Card>
+        </div>
+
+      
       )  
     } else if (this.state.activeTab === 1) {
       return (
@@ -57,13 +93,12 @@ class Projects extends Component {
               <Tab>AJAX</Tab>
             </Tabs>
 
-            <section className="projects-grid">
-              <Grid className="projects-grid">
+              <Grid>
                 <Cell col={12}>
                   <div className="content">{this.toggleCategories()}</div>
                 </Cell>
               </Grid>
-            </section>
+            
           </div>  
         )
     }
