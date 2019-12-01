@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Tabs, Tab, tabID, Grid, Cell, Card, CardTitle, CardMenu, CardActions, Button, IconButton, CardText } from 'react-mdl';
+import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardMenu, CardActions, Button, IconButton, CardText } from 'react-mdl';
 
 
 class Projects extends Component {
@@ -49,7 +49,7 @@ class Projects extends Component {
     render() {
         return(
           <div className="category-tabs">
-            <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabID})} ripple>
+            <Tabs activeTab={this.state.activeTab} onChange={(tabID) => this.setState({ activeTab: tabID})} ripple>
               <Tab>React</Tab>
               <Tab>MySql</Tab>
               <Tab>MongoDB</Tab>
