@@ -32,7 +32,6 @@ background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, F
 }
 
 .banner-text {
-  background-color: -webkit-linear-gradient(to right, #414345, #232526);
   opacity: .8;
   width: 75%;
   margin: auto;
@@ -50,4 +49,11 @@ background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, F
   border-top: 5px dotted white;
   width: 50%;
   margin: auto;
+}
+
+.banner-text p {
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+  text-align: center;
 }

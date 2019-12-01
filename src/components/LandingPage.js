@@ -17,6 +17,8 @@ class LandingPage extends Component {
 
                   <hr/>
 
+                  <p>HTML/CSS | Bootstrap | JavaScript | jQuery | AJAX | React | NodeJS | Express | MySql | MongoDB | Git | Firebase | Command Lines</p>
+
                 </div>
               </Cell>
             </Grid>  
