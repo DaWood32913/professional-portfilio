@@ -18,7 +18,19 @@ class LandingPage extends Component {
                   <hr/>
 
                   <p>HTML/CSS | Bootstrap | JavaScript | jQuery | AJAX | React | NodeJS | Express | MySql | MongoDB | Git | Firebase | Command Lines</p>
+                <div className="social-links">
 
+                   {/* Linkedin */}
+                  <a href="http://www.google.com" rel="noopener noreferrer" target="_blank">
+                    <i className="fa fa-linkedin-square"  aria-hidden="true"/>
+                  </a>
+
+                  {/* Github */}
+                  <a href="http://www.google.com" rel="noopener noreferrer" target="_blank">
+                    <i className="fa fa-github-square"  aria-hidden="true"/>
+                  </a>
+
+                </div>
                 </div>
               </Cell>
             </Grid>  

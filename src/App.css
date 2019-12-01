@@ -59,3 +59,16 @@ background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, F
   padding: 1em;
   text-align: center;
 }
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+  margin: auto;
+}
+
+.social-links i {
+  color: white;
+  font-size: 5em;
+  padding: 8px;
+}

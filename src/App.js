@@ -17,7 +17,7 @@ function App() {
                 <Link to="/Resume">My Resume</Link>
             </Navigation>
         </Header>
-        <Drawer title="Title">
+        <Drawer title="Menu">
             <Navigation>
                 <Link to="/">Link</Link>
                 <Link to="/">Link</Link>
