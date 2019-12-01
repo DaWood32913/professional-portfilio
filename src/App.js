@@ -19,7 +19,7 @@ function App() {
         </Header>
         <Drawer title="Menu">
             <Navigation>
-            <Link to="/">Home</Link>
+                <Link to="/">Home</Link>
                 <Link to="/AboutMe">About Me</Link>
                 <Link to="/Projects">My Projects</Link>
                 <Link to="/Contact">Contact Me</Link>

@@ -31,16 +31,16 @@ class Contact extends Component {
 
             <List>
               <ListItem>
-                <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
+                <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
                   <i className="fa fa-phone-square" aria-hidden="true"/>
                   973-865-6897
                 </ListItemContent>
               </ListItem>
               <ListItem>
-                <ListItemContent icon="person">Aaron Paul</ListItemContent>
-              </ListItem>
-              <ListItem>
-                <ListItemContent icon="person">Bob Odenkirk</ListItemContent>
+                <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
+                  <i className="fa fa-envelope" aria-hidden="true"/>
+                  woodleyjohnson@yahoo.com
+                </ListItemContent>
               </ListItem>
             </List>
 
