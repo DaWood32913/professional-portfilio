@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 function App() {
   return (
-<div style={{height: '300px', position: 'relative'}}>
+<div className="demo-big-content">
     <Layout fixedHeader>
         <Header className="header-color" transparent title="Title" style={{color: 'white'}}>
             <Navigation>
