@@ -21,12 +21,12 @@ class LandingPage extends Component {
                 <div className="social-links">
 
                    {/* Linkedin */}
-                  <a href="http://www.google.com" rel="noopener noreferrer" target="_blank">
+                  <a href="http://www.linkedin.com/in/woodley-johnson" rel="noopener noreferrer" target="_blank">
                     <i className="fa fa-linkedin-square"  aria-hidden="true"/>
                   </a>
 
                   {/* Github */}
-                  <a href="http://www.google.com" rel="noopener noreferrer" target="_blank">
+                  <a href="https://github.com/DaWood32913" rel="noopener noreferrer" target="_blank">
                     <i className="fa fa-github-square"  aria-hidden="true"/>
                   </a>
 

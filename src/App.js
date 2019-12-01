@@ -8,7 +8,7 @@ function App() {
   return (
 <div className="demo-big-content">
     <Layout fixedHeader>
-        <Header className="header-color" transparent title="Title" style={{color: 'white'}}>
+        <Header className="header-color" transparent title="Woodley Johnson" style={{color: 'white'}}>
             <Navigation>
                 <Link to="/">Home</Link>
                 <Link to="/AboutMe">About Me</Link>
