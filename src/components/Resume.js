@@ -67,7 +67,7 @@ class Resume extends Component {
               endYear={2019}
               jobName="Home Delivery America"
               position="Warehouse / Inventory Manager"
-              jobDescription="Managed all operations of the warehouse. Oversee the daily Morning Loadout of 50+ delivery trucks ensuring each truck loaded the correct consumer product. The Receiving of 15+ inbound trailers bring in over 2000 appliances."
+              jobDescription="Managed all operations of the warehouse. Oversee the daily Morning Loadout of 50+ delivery trucks ensuring each truck loaded the correct consumer product. The Receiving of 15+ inbound trailers bring in over 2000 appliances. Managed the Inventory of over $11M worth of inventory. Ensure the safety compliance and cleanliness of the warehouse utilizing Lean 5S Methods. Implimented work processes to increase productivity while significantly reducing overtime."
             />
 
             <Experience
