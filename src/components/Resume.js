@@ -21,13 +21,8 @@ class Resume extends Component {
             <h4 style={{ color: "grey" }}>Web Developer</h4>
             <hr style={{ borderTop: "3px solid #000", width: "50%" }} />
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum
+            FULL STACK WEB DEVELOPER WITH A CONCENTRATION IN: HTML, CSS, JAVASCRIPT, JQUERY, AJAX, EXPRESS, NODE, MYSQL, MONGODB, AND REACT. I'M SO GLAD YOU VISITED! PLEASE FEEL FREE TO BROWSE MY PAGE. HOPE YOU LIKE.
+            THANKS!
             </p>
             <hr style={{ borderTop: "3px solid #000", width: "50%" }} />
             <h5>Address</h5>
@@ -72,7 +67,7 @@ class Resume extends Component {
               endYear={2019}
               jobName="Home Delivery America"
               position="Warehouse / Inventory Manager"
-              jobDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+              jobDescription="Managed all operations of the warehouse. Oversee the daily Morning Loadout of 50+ delivery trucks ensuring each truck loaded the correct consumer product. The Receiving of 15+ inbound trailers bring in over 2000 appliances."
             />
 
             <Experience
@@ -80,7 +75,7 @@ class Resume extends Component {
               endYear={2017}
               jobName="Preferred Display Inc"
               position="Warehouse Manager"
-              jobDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+              jobDescription="Managed all operations for two warehouses, trained new employees, and re-trained current employees. Oversee the Receiving, Shipping, and Pick and Pack departments. Managed and supervised the Inventory Team with the resposibility for more than $5M worth of inventory. Ensure the safety compliance and cleanliness of both warehouses utilizing Lean 5S Methods."
             />
 
             <Experience
@@ -88,7 +83,7 @@ class Resume extends Component {
               endYear={2014}
               jobName="CloudBlue Technologies"
               position="Operations Manager"
-              jobDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+              jobDescription="Started as an entry-level employee, through diligence and hard work earned progressive promotions to a management position. Had complete responsibility for all daily warehouse operations. Managed 30 employees in six different departments - Logistics, Shipping and Receiving, Driver Dispatch, Inventory, Customer Audits, and Remarketing."
             />
 
             <hr style={{ borderTop: "3px solid #fff" }} />
