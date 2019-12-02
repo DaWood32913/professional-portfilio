@@ -44,7 +44,7 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <Button colored>
-                <a href="https://curateapp-upenn.herokuapp.com/">Live Demo</a>
+                <a href="https://curateapp-upenn.herokuapp.com/">Live Site</a>
               </Button>
               <Button colored>
                 <a href="https://github.com/yutsukushi/Curate">GitHub</a>
@@ -54,7 +54,7 @@ class Projects extends Component {
               <IconButton name="share" />
             </CardMenu>
           </Card>
-          
+
           {/* Project 2 */}
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
@@ -65,47 +65,28 @@ class Projects extends Component {
                   "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV38RNP5zRnhAFQSBWerqdKqwEuVQnTpRK0GPf-mfB9Q5xwGxz&s) center / cover"
               }}
             >
-              React Project
+              Clicky Game (NFL100 Edition)
             </CardTitle>
             <CardText>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-              sagittis pellentesque lacus eleifend lacinia...
+              Celebrate the 100th NFL season with "Clicky Game." This is a memory 
+              game where the goal is to click each of the 
+              original 8 NFL teams without re-clicking the same team twice or else 
+              GAME OVER!. If you sucessfully click all 8 teams 1 time without re-clicking, TOUCHDOWN!
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>LiveDemo</Button>
+              <Button colored>
+                <a href="https://dawood32913.github.io/clicky-game/">Live Site</a>
+              </Button>
+              <Button colored>
+                <a href="https://github.com/DaWood32913/clicky-game">GitHub</a>
+              </Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
             </CardMenu>
           </Card>
 
-          {/* Project 3 */}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
-            <CardTitle
-              style={{
-                color: "#ccc",
-                height: "176px",
-                background:
-                  "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV38RNP5zRnhAFQSBWerqdKqwEuVQnTpRK0GPf-mfB9Q5xwGxz&s) center / cover"
-              }}
-            >
-              React Project
-            </CardTitle>
-            <CardText>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-              sagittis pellentesque lacus eleifend lacinia...
-            </CardText>
-            <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>LiveDemo</Button>
-            </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
-              <IconButton name="share" />
-            </CardMenu>
-          </Card>
+          
         </div>
       );
     } else if (this.state.activeTab === 1) {
