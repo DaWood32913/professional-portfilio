@@ -85,14 +85,38 @@ class Projects extends Component {
               <IconButton name="share" />
             </CardMenu>
           </Card>
-
-          
         </div>
       );
     } else if (this.state.activeTab === 1) {
       return (
-        <div>
-          <h1>This is MySql</h1>
+        <div className="projects-grid">
+          {/* Tread Lightly App */}
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "#000",
+                height: "176px",
+                background:
+                  "url(https://upload.wikimedia.org/wikipedia/en/thumb/6/62/MySQL.svg/1200px-MySQL.svg.png) center / cover"
+              }}
+            >
+            Tread Lightly
+            </CardTitle>
+            <CardText>
+            For environmentally-aware users (or curious), Tread Lightly is an app that takes the user’s input  and searches the carbon footprint usage from every country. The carbon footprint calculator allows a user to calculate their impact and suggestions on how to improve.
+            </CardText>
+            <CardActions border>
+              <Button colored>
+                <a href="http://project2-upenn.herokuapp.com/">Live Site</a>
+              </Button>
+              <Button colored>
+                <a href="https://github.com/yutsukushi/Project-2">GitHub</a>
+              </Button>
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
         </div>
       );
     } else if (this.state.activeTab === 2) {
