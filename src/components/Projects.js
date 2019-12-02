@@ -44,10 +44,10 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <Button colored>
-                <a href="https://curateapp-upenn.herokuapp.com/">Live Site</a>
+                <a href="https://curateapp-upenn.herokuapp.com/" target="_blank">Live Site</a>
               </Button>
               <Button colored>
-                <a href="https://github.com/yutsukushi/Curate">GitHub</a>
+                <a href="https://github.com/yutsukushi/Curate" target="_blank">GitHub</a>
               </Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
@@ -75,10 +75,10 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <Button colored>
-                <a href="https://dawood32913.github.io/clicky-game/">Live Site</a>
+                <a href="https://dawood32913.github.io/clicky-game/" target="_blank">Live Site</a>
               </Button>
               <Button colored>
-                <a href="https://github.com/DaWood32913/clicky-game">GitHub</a>
+                <a href="https://github.com/DaWood32913/clicky-game" target="_blank">GitHub</a>
               </Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
@@ -107,10 +107,10 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <Button colored>
-                <a href="http://project2-upenn.herokuapp.com/">Live Site</a>
+                <a href="http://project2-upenn.herokuapp.com/" target="_blank">Live Site</a>
               </Button>
               <Button colored>
-                <a href="https://github.com/yutsukushi/Project-2">GitHub</a>
+                <a href="https://github.com/yutsukushi/Project-2" target="_blank">GitHub</a>
               </Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
